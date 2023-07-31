@@ -13,6 +13,9 @@ struct DailySwiftUIApp: App {
         WindowGroup {
             MyButtonView()
             MyTextView()
+            MyImageView()
+            MyStackView()
+            MyScrollView()
         }
     }
 }
