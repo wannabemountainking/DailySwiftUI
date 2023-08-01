@@ -16,6 +16,8 @@ struct DailySwiftUIApp: App {
             MyImageView()
             MyStackView()
             MyScrollView()
+            MyListView()
+            MySectionView()
         }
     }
 }
