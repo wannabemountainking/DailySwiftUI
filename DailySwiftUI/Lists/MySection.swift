@@ -51,6 +51,7 @@ struct MySectionView: View {
                         Image(systemName: "bolt")
                         Text("Yoonie")
                     }
+                }
             }
         }
     }
