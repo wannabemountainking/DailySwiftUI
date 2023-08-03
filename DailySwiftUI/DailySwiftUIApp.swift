@@ -24,6 +24,7 @@ struct DailySwiftUIApp: App {
         }
         WindowGroup {
             MyViewSetting()
+            MyFrame()
         }
     }
 }
