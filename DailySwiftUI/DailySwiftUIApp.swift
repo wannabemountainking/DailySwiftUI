@@ -27,6 +27,7 @@ struct DailySwiftUIApp: App {
             MyFrame()
             MyDivider()
             MyModal()
+            MyAlert()
         }
     }
 }
