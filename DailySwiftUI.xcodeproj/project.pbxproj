@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE83B60D2A7B8C22002FF534 /* MyDarkColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B60C2A7B8C22002FF534 /* MyDarkColor.swift */; };
+		EE83B60F2A7B8E66002FF534 /* MyDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B60E2A7B8E66002FF534 /* MyDivider.swift */; };
+		EE83B6112A7B93E6002FF534 /* MyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B6102A7B93E6002FF534 /* MyModal.swift */; };
+		EE83B6132A7B9821002FF534 /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B6122A7B9821002FF534 /* MyAlert.swift */; };
 		EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */; };
 		EF837A9F2A7959A0002EF6C0 /* MyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */; };
 		EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837AA02A795B14002EF6C0 /* MyList.swift */; };
@@ -20,13 +24,16 @@
 		EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */; };
 		EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC82A7B711800D68C2D /* ContentView.swift */; };
 		EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEC7DC2A7AC70900604A37 /* MyState.swift */; };
-		EFEDDFD52A7A93B900672E17 /* MySpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD42A7A93B900672E17 /* MySpacer.swift */; };
 		EFEDDFD72A7A97F300672E17 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD62A7A97F300672E17 /* MyColor.swift */; };
 		EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD82A7A9C8700672E17 /* MyView.swift */; };
 		EFF734322A78105F0016E70D /* MyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF734312A78105F0016E70D /* MyStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE83B60C2A7B8C22002FF534 /* MyDarkColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDarkColor.swift; sourceTree = "<group>"; };
+		EE83B60E2A7B8E66002FF534 /* MyDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDivider.swift; sourceTree = "<group>"; };
+		EE83B6102A7B93E6002FF534 /* MyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModal.swift; sourceTree = "<group>"; };
+		EE83B6122A7B9821002FF534 /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
 		EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSetting.swift; sourceTree = "<group>"; };
 		EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScroll.swift; sourceTree = "<group>"; };
 		EF837AA02A795B14002EF6C0 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
@@ -41,7 +48,6 @@
 		EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrame.swift; sourceTree = "<group>"; };
 		EFD9BBC82A7B711800D68C2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFDEC7DC2A7AC70900604A37 /* MyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyState.swift; sourceTree = "<group>"; };
-		EFEDDFD42A7A93B900672E17 /* MySpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpacer.swift; sourceTree = "<group>"; };
 		EFEDDFD62A7A97F300672E17 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 		EFEDDFD82A7A9C8700672E17 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		EFF734312A78105F0016E70D /* MyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStack.swift; sourceTree = "<group>"; };
@@ -62,7 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				EFEDDFD82A7A9C8700672E17 /* MyView.swift */,
-				EFEDDFD62A7A97F300672E17 /* MyColor.swift */,
+				EE83B6102A7B93E6002FF534 /* MyModal.swift */,
+				EE83B6122A7B9821002FF534 /* MyAlert.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,7 +128,6 @@
 			children = (
 				EF837AA02A795B14002EF6C0 /* MyList.swift */,
 				EF837AA22A796253002EF6C0 /* MySection.swift */,
-				EFEDDFD42A7A93B900672E17 /* MySpacer.swift */,
 				EFDEC7DC2A7AC70900604A37 /* MyState.swift */,
 				EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */,
 			);
@@ -133,6 +139,9 @@
 			children = (
 				EF9D44432A76C0D500A70163 /* MyText.swift */,
 				EF9D44452A76C46700A70163 /* MyImage.swift */,
+				EFEDDFD62A7A97F300672E17 /* MyColor.swift */,
+				EE83B60C2A7B8C22002FF534 /* MyDarkColor.swift */,
+				EE83B60E2A7B8E66002FF534 /* MyDivider.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -226,17 +235,20 @@
 			files = (
 				EF837A9F2A7959A0002EF6C0 /* MyScroll.swift in Sources */,
 				EF9D44382A76B6DC00A70163 /* MyButton.swift in Sources */,
+				EE83B6112A7B93E6002FF534 /* MyModal.swift in Sources */,
 				EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */,
 				EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */,
 				EF9D44462A76C46700A70163 /* MyImage.swift in Sources */,
 				EF9D44362A76B6DC00A70163 /* DailySwiftUIApp.swift in Sources */,
 				EF9D44442A76C0D500A70163 /* MyText.swift in Sources */,
+				EE83B60F2A7B8E66002FF534 /* MyDivider.swift in Sources */,
 				EFEDDFD72A7A97F300672E17 /* MyColor.swift in Sources */,
-				EFEDDFD52A7A93B900672E17 /* MySpacer.swift in Sources */,
+				EE83B6132A7B9821002FF534 /* MyAlert.swift in Sources */,
 				EF837AA32A796253002EF6C0 /* MySection.swift in Sources */,
 				EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */,
 				EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */,
 				EFF734322A78105F0016E70D /* MyStack.swift in Sources */,
+				EE83B60D2A7B8C22002FF534 /* MyDarkColor.swift in Sources */,
 				EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */,
 				EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */,
 			);

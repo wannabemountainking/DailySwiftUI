@@ -18,13 +18,15 @@ struct DailySwiftUIApp: App {
             MyScrollView()
             MyListView()
             MySectionView()
-            SpacerView()
             MyColor()
             MyView()
+            ContentView()
         }
         WindowGroup {
             MyViewSetting()
             MyFrame()
+            MyDivider()
+            MyModal()
         }
     }
 }
