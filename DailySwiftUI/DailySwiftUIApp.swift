@@ -28,6 +28,9 @@ struct DailySwiftUIApp: App {
             MyDivider()
             MyModal()
             MyAlert()
+            MyTapView()
+            MyToggle()
+            MyTextField()
         }
     }
 }
