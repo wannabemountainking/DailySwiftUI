@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct MyTextField: View {
+    
+    @State private var userID: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("userID")
+            TextField("Required", text: $userID)
+                .textFieldStyle(.roundedBorder)
+        }
+        .padding()
     }
 }
 
