@@ -31,6 +31,8 @@ struct DailySwiftUIApp: App {
             MyTapView()
             MyToggle()
             MyTextField()
+            MySecureField()
+            MyProgress()
         }
     }
 }

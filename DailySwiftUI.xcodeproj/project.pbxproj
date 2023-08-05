@@ -11,6 +11,8 @@
 		EE83B60F2A7B8E66002FF534 /* MyDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B60E2A7B8E66002FF534 /* MyDivider.swift */; };
 		EE83B6112A7B93E6002FF534 /* MyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B6102A7B93E6002FF534 /* MyModal.swift */; };
 		EE83B6132A7B9821002FF534 /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B6122A7B9821002FF534 /* MyAlert.swift */; };
+		EEDFD3162A7E277200F6F05B /* MySecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDFD3152A7E277200F6F05B /* MySecureField.swift */; };
+		EEDFD3182A7E2E6300F6F05B /* MyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */; };
 		EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */; };
 		EF837A9F2A7959A0002EF6C0 /* MyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */; };
 		EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837AA02A795B14002EF6C0 /* MyList.swift */; };
@@ -37,6 +39,8 @@
 		EE83B60E2A7B8E66002FF534 /* MyDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDivider.swift; sourceTree = "<group>"; };
 		EE83B6102A7B93E6002FF534 /* MyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModal.swift; sourceTree = "<group>"; };
 		EE83B6122A7B9821002FF534 /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
+		EEDFD3152A7E277200F6F05B /* MySecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecureField.swift; sourceTree = "<group>"; };
+		EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgress.swift; sourceTree = "<group>"; };
 		EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSetting.swift; sourceTree = "<group>"; };
 		EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScroll.swift; sourceTree = "<group>"; };
 		EF837AA02A795B14002EF6C0 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 				EE83B6102A7B93E6002FF534 /* MyModal.swift */,
 				EE83B6122A7B9821002FF534 /* MyAlert.swift */,
 				EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */,
+				EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				EE83B60C2A7B8C22002FF534 /* MyDarkColor.swift */,
 				EE83B60E2A7B8E66002FF534 /* MyDivider.swift */,
 				EFC6E4B32A7C084E00457328 /* MyTextField.swift */,
+				EEDFD3152A7E277200F6F05B /* MySecureField.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -248,12 +254,14 @@
 				EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */,
 				EFF063802A7BCBD9001BA11E /* MyTapView.swift in Sources */,
 				EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */,
+				EEDFD3162A7E277200F6F05B /* MySecureField.swift in Sources */,
 				EF9D44462A76C46700A70163 /* MyImage.swift in Sources */,
 				EF9D44362A76B6DC00A70163 /* DailySwiftUIApp.swift in Sources */,
 				EF9D44442A76C0D500A70163 /* MyText.swift in Sources */,
 				EE83B60F2A7B8E66002FF534 /* MyDivider.swift in Sources */,
 				EFEDDFD72A7A97F300672E17 /* MyColor.swift in Sources */,
 				EE83B6132A7B9821002FF534 /* MyAlert.swift in Sources */,
+				EEDFD3182A7E2E6300F6F05B /* MyProgress.swift in Sources */,
 				EF837AA32A796253002EF6C0 /* MySection.swift in Sources */,
 				EFC6E4B02A7C031F00457328 /* MyToggle.swift in Sources */,
 				EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */,
