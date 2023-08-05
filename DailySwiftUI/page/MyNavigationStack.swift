@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct MyNavigationStack: View {
+    
+    @State private var number: Int = 100
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            NavigationLink(value: 3) {
+                Text("test3")
+            }
+            .navigationDestination(for: Int.self) { value in
+                Text("Yoon tried \(value) times.")
+            }
+        }
     }
 }
 
