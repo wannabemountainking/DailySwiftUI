@@ -34,5 +34,10 @@ struct DailySwiftUIApp: App {
             MySecureField()
             MyProgress()
         }
+        WindowGroup {
+            MyLabel()
+            MyNavigationView()
+            MyNavigationStack()
+        }
     }
 }
