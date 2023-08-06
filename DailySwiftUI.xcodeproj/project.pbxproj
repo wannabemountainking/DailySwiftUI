@@ -13,6 +13,8 @@
 		EE83B6132A7B9821002FF534 /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE83B6122A7B9821002FF534 /* MyAlert.swift */; };
 		EEDFD3162A7E277200F6F05B /* MySecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDFD3152A7E277200F6F05B /* MySecureField.swift */; };
 		EEDFD3182A7E2E6300F6F05B /* MyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */; };
+		EF09657C2A7F361300F9FD6C /* MyAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09657B2A7F361300F9FD6C /* MyAppear.swift */; };
+		EF09657E2A7F3DCD00F9FD6C /* MyWrapUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09657D2A7F3DCD00F9FD6C /* MyWrapUp2.swift */; };
 		EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */; };
 		EF837A9F2A7959A0002EF6C0 /* MyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */; };
 		EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837AA02A795B14002EF6C0 /* MyList.swift */; };
@@ -44,6 +46,8 @@
 		EE83B6122A7B9821002FF534 /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
 		EEDFD3152A7E277200F6F05B /* MySecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecureField.swift; sourceTree = "<group>"; };
 		EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgress.swift; sourceTree = "<group>"; };
+		EF09657B2A7F361300F9FD6C /* MyAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppear.swift; sourceTree = "<group>"; };
+		EF09657D2A7F3DCD00F9FD6C /* MyWrapUp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrapUp2.swift; sourceTree = "<group>"; };
 		EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSetting.swift; sourceTree = "<group>"; };
 		EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScroll.swift; sourceTree = "<group>"; };
 		EF837AA02A795B14002EF6C0 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				EE83B6122A7B9821002FF534 /* MyAlert.swift */,
 				EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */,
 				EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */,
+				EF09657B2A7F361300F9FD6C /* MyAppear.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			children = (
 				EFD3768B2A7E82F00079AAB4 /* MyNavigationView.swift */,
 				EFD3768E2A7E873E0079AAB4 /* MyNavigationStack.swift */,
+				EF09657D2A7F3DCD00F9FD6C /* MyWrapUp2.swift */,
 			);
 			path = page;
 			sourceTree = "<group>";
@@ -277,10 +283,12 @@
 				EF9D44442A76C0D500A70163 /* MyText.swift in Sources */,
 				EE83B60F2A7B8E66002FF534 /* MyDivider.swift in Sources */,
 				EFD3768C2A7E82F00079AAB4 /* MyNavigationView.swift in Sources */,
+				EF09657C2A7F361300F9FD6C /* MyAppear.swift in Sources */,
 				EFEDDFD72A7A97F300672E17 /* MyColor.swift in Sources */,
 				EE83B6132A7B9821002FF534 /* MyAlert.swift in Sources */,
 				EFD3768F2A7E873E0079AAB4 /* MyNavigationStack.swift in Sources */,
 				EEDFD3182A7E2E6300F6F05B /* MyProgress.swift in Sources */,
+				EF09657E2A7F3DCD00F9FD6C /* MyWrapUp2.swift in Sources */,
 				EFD3768A2A7E7E060079AAB4 /* MyLabel.swift in Sources */,
 				EF837AA32A796253002EF6C0 /* MySection.swift in Sources */,
 				EFC6E4B02A7C031F00457328 /* MyToggle.swift in Sources */,

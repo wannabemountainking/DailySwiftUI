@@ -38,6 +38,7 @@ struct DailySwiftUIApp: App {
             MyLabel()
             MyNavigationView()
             MyNavigationStack()
+            MyAppear()
         }
     }
 }
