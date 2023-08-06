@@ -33,6 +33,8 @@
 		EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */; };
 		EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC82A7B711800D68C2D /* ContentView.swift */; };
 		EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEC7DC2A7AC70900604A37 /* MyState.swift */; };
+		EFEDB4332A7FA9F20041526E /* MyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDB4322A7FA9F20041526E /* MyShape.swift */; };
+		EFEDB4352A7FACDA0041526E /* MyBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDB4342A7FACDA0041526E /* MyBinding.swift */; };
 		EFEDDFD72A7A97F300672E17 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD62A7A97F300672E17 /* MyColor.swift */; };
 		EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD82A7A9C8700672E17 /* MyView.swift */; };
 		EFF063802A7BCBD9001BA11E /* MyTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */; };
@@ -67,6 +69,8 @@
 		EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrame.swift; sourceTree = "<group>"; };
 		EFD9BBC82A7B711800D68C2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFDEC7DC2A7AC70900604A37 /* MyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyState.swift; sourceTree = "<group>"; };
+		EFEDB4322A7FA9F20041526E /* MyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShape.swift; sourceTree = "<group>"; };
+		EFEDB4342A7FACDA0041526E /* MyBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBinding.swift; sourceTree = "<group>"; };
 		EFEDDFD62A7A97F300672E17 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 		EFEDDFD82A7A9C8700672E17 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTapView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			children = (
 				EF9D44352A76B6DC00A70163 /* DailySwiftUIApp.swift */,
 				EFD9BBC82A7B711800D68C2D /* ContentView.swift */,
+				EFEDB4322A7FA9F20041526E /* MyShape.swift */,
 				EFD3768D2A7E82F60079AAB4 /* page */,
 				EFD9BBC72A7B6AE100D68C2D /* MyModifier */,
 				EF1626EE2A7ACAD500191E4B /* Views */,
@@ -197,6 +202,7 @@
 			children = (
 				EF9D44372A76B6DC00A70163 /* MyButton.swift */,
 				EFC6E4AF2A7C031F00457328 /* MyToggle.swift */,
+				EFEDB4342A7FACDA0041526E /* MyBinding.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 				EF837A9F2A7959A0002EF6C0 /* MyScroll.swift in Sources */,
 				EF9D44382A76B6DC00A70163 /* MyButton.swift in Sources */,
 				EE83B6112A7B93E6002FF534 /* MyModal.swift in Sources */,
+				EFEDB4352A7FACDA0041526E /* MyBinding.swift in Sources */,
 				EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */,
 				EFF063802A7BCBD9001BA11E /* MyTapView.swift in Sources */,
 				EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */,
@@ -298,6 +305,7 @@
 				EFF734322A78105F0016E70D /* MyStack.swift in Sources */,
 				EE83B60D2A7B8C22002FF534 /* MyDarkColor.swift in Sources */,
 				EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */,
+				EFEDB4332A7FA9F20041526E /* MyShape.swift in Sources */,
 				EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

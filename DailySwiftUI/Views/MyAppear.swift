@@ -28,9 +28,6 @@ struct MyAppear: View {
         .onAppear {
             print("On Appear2")
         }
-        .onDisappear {
-            Text("On Disappear2")
-        }
 
 
 //        VStack {

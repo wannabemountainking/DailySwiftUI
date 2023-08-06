@@ -39,6 +39,8 @@ struct DailySwiftUIApp: App {
             MyNavigationView()
             MyNavigationStack()
             MyAppear()
+            MyShape()
+            MyBinding()
         }
     }
 }
