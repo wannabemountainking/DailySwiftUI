@@ -42,6 +42,9 @@ struct DailySwiftUIApp: App {
             MyShape()
             MyBinding()
             MySlider()
+            MyStepper()
+            MyPicker()
+            MyTextEditor()
         }
     }
 }
