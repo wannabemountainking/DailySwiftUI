@@ -41,6 +41,7 @@ struct DailySwiftUIApp: App {
             MyAppear()
             MyShape()
             MyBinding()
+            MySlider()
         }
     }
 }
