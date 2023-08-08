@@ -46,5 +46,8 @@ struct DailySwiftUIApp: App {
             MyPicker()
             MyTextEditor()
         }
+        WindowGroup {
+            MyHexColor()
+        }
     }
 }

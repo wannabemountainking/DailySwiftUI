@@ -37,6 +37,8 @@
 		EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */; };
 		EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC82A7B711800D68C2D /* ContentView.swift */; };
 		EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEC7DC2A7AC70900604A37 /* MyState.swift */; };
+		EFE9911B2A828B8500E3EC73 /* MyHexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9911A2A828B8500E3EC73 /* MyHexColor.swift */; };
+		EFE9911D2A8292E100E3EC73 /* MyBasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9911C2A8292E100E3EC73 /* MyBasicAnimation.swift */; };
 		EFEDB4332A7FA9F20041526E /* MyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDB4322A7FA9F20041526E /* MyShape.swift */; };
 		EFEDB4352A7FACDA0041526E /* MyBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDB4342A7FACDA0041526E /* MyBinding.swift */; };
 		EFEDDFD72A7A97F300672E17 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD62A7A97F300672E17 /* MyColor.swift */; };
@@ -77,6 +79,8 @@
 		EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrame.swift; sourceTree = "<group>"; };
 		EFD9BBC82A7B711800D68C2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFDEC7DC2A7AC70900604A37 /* MyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyState.swift; sourceTree = "<group>"; };
+		EFE9911A2A828B8500E3EC73 /* MyHexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHexColor.swift; sourceTree = "<group>"; };
+		EFE9911C2A8292E100E3EC73 /* MyBasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicAnimation.swift; sourceTree = "<group>"; };
 		EFEDB4322A7FA9F20041526E /* MyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShape.swift; sourceTree = "<group>"; };
 		EFEDB4342A7FACDA0041526E /* MyBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBinding.swift; sourceTree = "<group>"; };
 		EFEDDFD62A7A97F300672E17 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				EF9D44352A76B6DC00A70163 /* DailySwiftUIApp.swift */,
+				EFE9911E2A8292E800E3EC73 /* Animation */,
 				EFD9BBC82A7B711800D68C2D /* ContentView.swift */,
 				EFEDB4322A7FA9F20041526E /* MyShape.swift */,
 				EFD3768D2A7E82F60079AAB4 /* page */,
@@ -170,6 +175,14 @@
 			path = MyModifier;
 			sourceTree = "<group>";
 		};
+		EFE9911E2A8292E800E3EC73 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				EFE9911C2A8292E100E3EC73 /* MyBasicAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		EFEDDFD02A7A929900672E17 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +205,8 @@
 				EFC6E4B32A7C084E00457328 /* MyTextField.swift */,
 				EEDFD3152A7E277200F6F05B /* MySecureField.swift */,
 				EFD376892A7E7E060079AAB4 /* MyLabel.swift */,
+				EEEED1CE2A80F58300327CAD /* MyTextEditor.swift */,
+				EFE9911A2A828B8500E3EC73 /* MyHexColor.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -214,7 +229,6 @@
 				EEB933112A808EE200450E36 /* MySlider.swift */,
 				EEEED1CA2A80E81300327CAD /* MyStepper.swift */,
 				EEEED1CC2A80F0A800327CAD /* MyPicker.swift */,
-				EEEED1CE2A80F58300327CAD /* MyTextEditor.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -318,8 +332,10 @@
 				EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */,
 				EFC6E4B42A7C084E00457328 /* MyTextField.swift in Sources */,
 				EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */,
+				EFE9911D2A8292E100E3EC73 /* MyBasicAnimation.swift in Sources */,
 				EFF734322A78105F0016E70D /* MyStack.swift in Sources */,
 				EE83B60D2A7B8C22002FF534 /* MyDarkColor.swift in Sources */,
+				EFE9911B2A828B8500E3EC73 /* MyHexColor.swift in Sources */,
 				EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */,
 				EFEDB4332A7FA9F20041526E /* MyShape.swift in Sources */,
 				EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */,
