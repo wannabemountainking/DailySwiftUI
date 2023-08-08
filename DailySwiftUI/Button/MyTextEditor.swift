@@ -10,13 +10,36 @@ import SwiftUI
 struct MyTextEditor: View {
     
     @State private var inputText: String = "default"
+    @State private var wordsLimit: Float = 30
+    @State private var numberOfWords: Int = 10
     
     var body: some View {
-        TextEditor(text: $inputText)
+        VStack {
+            Slider(value: $wordsLimit, in: 10...200) {
+                Text("Words Limitation")
+            } minimumValueLabel: {
+                Text("10")
+            } maximumValueLabel: {
+                Text("200")
+            }
             .padding()
-            .background(.green)
-            .frame(height: 300)
-            .multilineTextAlignment(.center)
+            Text("Words limitation:  \(String(Int(wordsLimit)))")
+
+            TextEditor(text: $inputText)
+                .padding()
+                .background(.green)
+                .frame(height: 300)
+                .multilineTextAlignment(.center)
+                .onChange(of: inputText) { newValue in
+                    numberOfWords = inputText.count
+                    if inputText.count > Int(wordsLimit) {
+                        inputText.remove(at: inputText.index(before: inputText.endIndex))
+                }
+            }
+            .padding()
+            
+            Text("Current number of Words:  \(numberOfWords)")
+        }
     }
 }
 
