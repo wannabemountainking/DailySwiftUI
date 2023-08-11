@@ -20,6 +20,7 @@
 		EF09657C2A7F361300F9FD6C /* MyAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09657B2A7F361300F9FD6C /* MyAppear.swift */; };
 		EF09657E2A7F3DCD00F9FD6C /* MyWrapUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09657D2A7F3DCD00F9FD6C /* MyWrapUp2.swift */; };
 		EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */; };
+		EF2EE98A2A86AC8200BC03F9 /* MyForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2EE9892A86AC8200BC03F9 /* MyForm.swift */; };
 		EF837A9F2A7959A0002EF6C0 /* MyScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */; };
 		EF837AA12A795B14002EF6C0 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837AA02A795B14002EF6C0 /* MyList.swift */; };
 		EF837AA32A796253002EF6C0 /* MySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837AA22A796253002EF6C0 /* MySection.swift */; };
@@ -36,6 +37,7 @@
 		EFD3768F2A7E873E0079AAB4 /* MyNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3768E2A7E873E0079AAB4 /* MyNavigationStack.swift */; };
 		EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */; };
 		EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9BBC82A7B711800D68C2D /* ContentView.swift */; };
+		EFDDEFE22A83F4B400819C26 /* MyGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDEFE12A83F4B400819C26 /* MyGradient.swift */; };
 		EFDEC7DD2A7AC70900604A37 /* MyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEC7DC2A7AC70900604A37 /* MyState.swift */; };
 		EFE9911B2A828B8500E3EC73 /* MyHexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9911A2A828B8500E3EC73 /* MyHexColor.swift */; };
 		EFE9911D2A8292E100E3EC73 /* MyBasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9911C2A8292E100E3EC73 /* MyBasicAnimation.swift */; };
@@ -61,6 +63,7 @@
 		EF09657B2A7F361300F9FD6C /* MyAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppear.swift; sourceTree = "<group>"; };
 		EF09657D2A7F3DCD00F9FD6C /* MyWrapUp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrapUp2.swift; sourceTree = "<group>"; };
 		EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSetting.swift; sourceTree = "<group>"; };
+		EF2EE9892A86AC8200BC03F9 /* MyForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForm.swift; sourceTree = "<group>"; };
 		EF837A9E2A7959A0002EF6C0 /* MyScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScroll.swift; sourceTree = "<group>"; };
 		EF837AA02A795B14002EF6C0 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		EF837AA22A796253002EF6C0 /* MySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySection.swift; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		EFD3768E2A7E873E0079AAB4 /* MyNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationStack.swift; sourceTree = "<group>"; };
 		EFD9BBC52A7B6A6D00D68C2D /* MyFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrame.swift; sourceTree = "<group>"; };
 		EFD9BBC82A7B711800D68C2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFDDEFE12A83F4B400819C26 /* MyGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGradient.swift; sourceTree = "<group>"; };
 		EFDEC7DC2A7AC70900604A37 /* MyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyState.swift; sourceTree = "<group>"; };
 		EFE9911A2A828B8500E3EC73 /* MyHexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHexColor.swift; sourceTree = "<group>"; };
 		EFE9911C2A8292E100E3EC73 /* MyBasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicAnimation.swift; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */,
 				EEDFD3172A7E2E6300F6F05B /* MyProgress.swift */,
 				EF09657B2A7F361300F9FD6C /* MyAppear.swift */,
+				EFDDEFE12A83F4B400819C26 /* MyGradient.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,7 +139,6 @@
 			children = (
 				EF9D44352A76B6DC00A70163 /* DailySwiftUIApp.swift */,
 				EFE9911E2A8292E800E3EC73 /* Animation */,
-				EFD9BBC82A7B711800D68C2D /* ContentView.swift */,
 				EFEDB4322A7FA9F20041526E /* MyShape.swift */,
 				EFD3768D2A7E82F60079AAB4 /* page */,
 				EFD9BBC72A7B6AE100D68C2D /* MyModifier */,
@@ -188,8 +192,10 @@
 			children = (
 				EF837AA02A795B14002EF6C0 /* MyList.swift */,
 				EF837AA22A796253002EF6C0 /* MySection.swift */,
+				EFD9BBC82A7B711800D68C2D /* ContentView.swift */,
 				EFDEC7DC2A7AC70900604A37 /* MyState.swift */,
 				EF1626EF2A7ACB2800191E4B /* MyViewSetting.swift */,
+				EF2EE9892A86AC8200BC03F9 /* MyForm.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */,
 				EFF063802A7BCBD9001BA11E /* MyTapView.swift in Sources */,
 				EEB933122A808EE200450E36 /* MySlider.swift in Sources */,
+				EF2EE98A2A86AC8200BC03F9 /* MyForm.swift in Sources */,
 				EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */,
 				EEDFD3162A7E277200F6F05B /* MySecureField.swift in Sources */,
 				EF9D44462A76C46700A70163 /* MyImage.swift in Sources */,
@@ -334,6 +341,7 @@
 				EFD9BBC92A7B711800D68C2D /* ContentView.swift in Sources */,
 				EFE9911D2A8292E100E3EC73 /* MyBasicAnimation.swift in Sources */,
 				EFF734322A78105F0016E70D /* MyStack.swift in Sources */,
+				EFDDEFE22A83F4B400819C26 /* MyGradient.swift in Sources */,
 				EE83B60D2A7B8C22002FF534 /* MyDarkColor.swift in Sources */,
 				EFE9911B2A828B8500E3EC73 /* MyHexColor.swift in Sources */,
 				EF1626F02A7ACB2800191E4B /* MyViewSetting.swift in Sources */,
