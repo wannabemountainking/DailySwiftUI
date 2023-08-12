@@ -47,6 +47,7 @@
 		EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDDFD82A7A9C8700672E17 /* MyView.swift */; };
 		EFF063802A7BCBD9001BA11E /* MyTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */; };
 		EFF734322A78105F0016E70D /* MyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF734312A78105F0016E70D /* MyStack.swift */; };
+		EFF8C7762A87909C00755D34 /* MyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8C7752A87909C00755D34 /* MyGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		EFEDDFD82A7A9C8700672E17 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		EFF0637F2A7BCBD9001BA11E /* MyTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTapView.swift; sourceTree = "<group>"; };
 		EFF734312A78105F0016E70D /* MyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStack.swift; sourceTree = "<group>"; };
+		EFF8C7752A87909C00755D34 /* MyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				EF9D44352A76B6DC00A70163 /* DailySwiftUIApp.swift */,
+				EFF8C7772A87909F00755D34 /* Layout */,
 				EFE9911E2A8292E800E3EC73 /* Animation */,
 				EFEDB4322A7FA9F20041526E /* MyShape.swift */,
 				EFD3768D2A7E82F60079AAB4 /* page */,
@@ -233,10 +236,18 @@
 				EFC6E4AF2A7C031F00457328 /* MyToggle.swift */,
 				EFEDB4342A7FACDA0041526E /* MyBinding.swift */,
 				EEB933112A808EE200450E36 /* MySlider.swift */,
-				EEEED1CA2A80E81300327CAD /* MyStepper.swift */,
 				EEEED1CC2A80F0A800327CAD /* MyPicker.swift */,
+				EEEED1CA2A80E81300327CAD /* MyStepper.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		EFF8C7772A87909F00755D34 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8C7752A87909C00755D34 /* MyGrid.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 				EFEDB4352A7FACDA0041526E /* MyBinding.swift in Sources */,
 				EFD9BBC62A7B6A6D00D68C2D /* MyFrame.swift in Sources */,
 				EFF063802A7BCBD9001BA11E /* MyTapView.swift in Sources */,
+				EFF8C7762A87909C00755D34 /* MyGrid.swift in Sources */,
 				EEB933122A808EE200450E36 /* MySlider.swift in Sources */,
 				EF2EE98A2A86AC8200BC03F9 /* MyForm.swift in Sources */,
 				EFEDDFD92A7A9C8700672E17 /* MyView.swift in Sources */,

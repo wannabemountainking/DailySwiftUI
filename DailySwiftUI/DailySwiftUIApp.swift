@@ -48,6 +48,7 @@ struct DailySwiftUIApp: App {
         }
         WindowGroup {
             MyHexColor()
+            MyForm()
         }
     }
 }
